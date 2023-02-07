@@ -1,0 +1,47 @@
+{
+  "window.title": "${rootName}",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "editor.rulers": [80, 120],
+  "editor.detectIndentation": true,
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.renderCharacters": false,
+  "editor.inlineSuggest.enabled": true,
+  /**********************/
+  /* Linter + Formatter */
+  /**********************/
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  /**************/
+  /* Extensions */
+  /**************/
+  "cSpell.ignoreWords": [
+    "peaceiris",
+    "slackapi",
+    "xoxb"
+  ],
+  "better-comments.tags": [
+    {
+      "tag": "FIXME",
+      "color": "#DC3545"
+    },
+    {
+      "tag": "TODO",
+      "color": "#FFC107"
+    },
+    {
+      "tag": "NOTE",
+      "color": "#198754"
+    },
+    {
+      "tag": "REF",
+      "color": "#0D6EFD"
+    }
+  ],
+  "better-comments.multilineComments": true,
+  "markdown.extension.toc.levels": "2..6",
+}
